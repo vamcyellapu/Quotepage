@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #757575;
+  background-color: #f2f2f2;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+.top {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 0 3.5rem;
+}
+.logo {
+  font-size: 1.5rem;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-heading h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.section-heading p {
+  font-size: 0.9rem;
+}
+.quote-section {
+  border-radius: 50px;
+  background-color: #fff;
+  border: 3px solid #ffe186;
+  max-width: 700px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 20px 30px -20px #757575;
+}
+.quote {
+  margin: 2rem 15rem 6rem 1rem;
+  line-height: 1.3rem;
+}
+.quote-img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid #fff;
+  outline: 3px solid #ffe186;
+  position: relative;
+  bottom: 30px;
+}
+.social {
+  display: flex;
+  /* justify-content: center; */
+  align-self: flex-end;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+.social p {
+  margin-right: 1rem;
+}
+
+.social-icons {
+  width: 2rem;
+  margin: 0.3rem;
+  fill: #fff;
+}
+
+.note {
+  font-size: 0.9rem;
+  margin: 3rem 12rem;
+  font-style: italic;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  border-bottom: 1px solid #757575;
+  padding: 0rem 4rem;
+}
+.footer img {
+  border-radius: 100%;
+  object-fit: cover;
+
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.6rem;
+}
+
+.share {
+  display: flex;
+  margin: 1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  align-items: center;
+}
+.share-link {
+  color: #3386cf;
+}
+
+.footer-text {
+  margin-left: 1rem;
+}
+
+.last-para {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
+}
